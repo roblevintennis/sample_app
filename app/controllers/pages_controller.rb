@@ -3,6 +3,10 @@ class PagesController < ApplicationController
     @title = "Home"
   end
 
+  def help 
+    @title = "Help"
+  end
+
   def contact
     @title = "Contact"
   end
